@@ -1,4 +1,23 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Style the entire body of the page */
+body {
+  font-family: Arial, verdana;       
+  text-align: center;                   
+  background-color: #f4f4f4;          
+  margin: 0;                            
+  padding: 20px;                        
+}
+
+/* Style the main heading */
+h1 {
+  color: #333;                         
+}
+
+/* Style the container holding the chart */
+.chart-container {
+  max-width: 600px;                     
+  margin: 40px auto;                   
+  background-color: #fff;               
+  border-radius: 15px;                 
+  padding: 20px;                       
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);  
 }
